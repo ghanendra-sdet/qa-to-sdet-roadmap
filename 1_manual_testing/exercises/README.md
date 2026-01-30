@@ -187,11 +187,12 @@ Strong manual testing skills directly improve:
 ---
 
 ### ▶️ Next Step
-Proceed to:  
 
-`2_api_testing_manual_and_automation/` 
-'bug-report-template.md'
-'exploratory-testing-notes.md'
-'sample-test-cases.md'
-'test-case-template.md' 
-to begin learning API testing concepts and hands-on practices.
+**Practice Files:**
+- `bug-report-template.md`
+- `exploratory-testing-notes.md`
+- `sample-test-cases.md`
+- `test-case-template.md`
+
+**Next Module:**  
+Proceed to `2_api_testing_manual_and_automation/` to begin learning API testing concepts and hands-on practices.
