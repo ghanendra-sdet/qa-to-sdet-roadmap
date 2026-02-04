@@ -201,5 +201,5 @@ A strong QA engineer:
 
 ### ▶️ Next Step
 Proceed to:
-`2_api_testing_manual_and_automation/README.md`  
-to begin your journey into API testing concepts and hands-on practices.
+`1_manual_testing/resources/README.md`  
+to explore additional manual testing resources and learning materials.
