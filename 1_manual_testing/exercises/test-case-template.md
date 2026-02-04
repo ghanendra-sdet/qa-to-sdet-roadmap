@@ -158,5 +158,5 @@ This template can be reused across projects with minimal customization.
 
 ### ▶️ Next Step
 Proceed to:
-`2_api_testing_manual_and_automation/README.md`  
-to start learning API testing fundamentals.
+`sample-test-cases.md`  
+to see practical examples of well-written test cases.
