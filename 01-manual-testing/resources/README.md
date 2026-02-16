@@ -238,10 +238,10 @@ graph TD
 
 ### ▶️ Ready to move forward?
 
-Proceed to: **`2_api_testing_manual_and_automation/README.md`**  
+Proceed to: **`02-api-testing/README.md`**  
 to begin learning **API testing concepts and practices**.
 
-[![Next Module](https://img.shields.io/badge/Next-API%20Testing-blue?style=for-the-badge&logo=fastapi)](../../../2_api_testing_manual_and_automation/README.md)
+[![Next Module](https://img.shields.io/badge/Next-API%20Testing-blue?style=for-the-badge&logo=fastapi)](../../../02-api-testing/README.md)
 
 </div>
 

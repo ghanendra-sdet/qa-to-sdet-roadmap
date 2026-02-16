@@ -225,7 +225,7 @@ graph LR
 - ✅ REST Assured automation scripts
 - ✅ API test framework
 
-📂 **[Go to Module 2: API Testing →](../2_api_testing_manual_and_automation/)**
+📂 **[Go to Module 2: API Testing →](../02-api-testing/)**
 
 ---
 

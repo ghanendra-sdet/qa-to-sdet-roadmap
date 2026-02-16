@@ -1063,7 +1063,7 @@ Consider ISTQB Foundation Level certification to:
 
 ### 4. **Continue Learning**
 
-**Next Module:** [`2_api_testing_manual_and_automation/`](../../2_api_testing_manual_and_automation/)
+**Next Module:** [`02-api-testing/`](../../02-api-testing/)
 - Learn API testing fundamentals
 - Practice with Postman
 - Understand REST/SOAP protocols

@@ -937,7 +937,7 @@ Create a GitHub repository showcasing:
 
 ### 4. **Continue Learning**
 
-**Next Module:** Proceed to `2_api_testing_manual_and_automation/`
+**Next Module:** Proceed to `02-api-testing/`
 - Learn API testing fundamentals
 - Practice with Postman
 - Understand REST/SOAP
