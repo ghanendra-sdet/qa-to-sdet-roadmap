@@ -1103,7 +1103,7 @@ Help improve this learning resource!
 
 **⭐ Strong fundamentals lead to successful automation! ⭐**
 
-Made with ❤️ for aspiring QA Engineers | Last Updated: February 2026
+Made with ❤️ for aspiring QA Engineers | Last Updated: March 2026
 
 **[⬆ Back to Top](#-manual-testing--core-concepts)**
 
