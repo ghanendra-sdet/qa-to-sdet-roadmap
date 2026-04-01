@@ -977,7 +977,7 @@ Help improve these exercises!
 
 **⭐ Practice makes perfect! Start your QA journey today. ⭐**
 
-Made with ❤️ for aspiring QA Engineers | Last Updated: March 2026
+Made with ❤️ for aspiring QA Engineers | Last Updated: April 2026
 
 **[⬆ Back to Top](#-manual-testing--exercises--practice)**
 
