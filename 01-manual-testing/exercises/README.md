@@ -979,6 +979,8 @@ Help improve these exercises!
 
 Made with ❤️ for aspiring QA Engineers | Last Updated: April 2026
 
+Few more changes are going to come so ready for that 
+
 **[⬆ Back to Top](#-manual-testing--exercises--practice)**
 
 </div>
