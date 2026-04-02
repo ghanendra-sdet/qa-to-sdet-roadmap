@@ -539,6 +539,6 @@ npx playwright test --debug
 
 **⭐ Great job! You've completed all three API testing examples! ⭐**
 
-Made with ❤️ for QA-to-SDET Journey | February 2026
+Made with ❤️ for QA-to-SDET Journey | April 2026
 
 </div>
