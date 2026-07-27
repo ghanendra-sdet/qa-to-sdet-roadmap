@@ -3,13 +3,13 @@
 # 🚀 QA to SDET Learning Roadmap
 
 ![Status](https://img.shields.io/badge/status-active-success.svg)
-![Modules](https://img.shields.io/badge/modules-7-blue.svg)
+![Modules](https://img.shields.io/badge/modules-11-blue.svg)
 ![Difficulty](https://img.shields.io/badge/difficulty-beginner%20to%20advanced-orange.svg)
-![Last Updated](https://img.shields.io/badge/last%20updated-Feb%202026-brightgreen.svg)
+![Last Updated](https://img.shields.io/badge/last%20updated-Jul%202026-brightgreen.svg)
 
 ### Your Complete Journey from Manual Testing to Test Automation Engineer
 
-*A structured, hands-on learning path for Manual Testing, API Testing, and Playwright Automation designed to take you from QA fundamentals to building enterprise-grade test automation frameworks.*
+*A structured, hands-on learning path for Manual Testing, API Testing, Playwright Automation, Framework Design, and AI-Assisted Testing — designed to take you from QA fundamentals to building enterprise-grade test automation frameworks.*
 
 ---
 
@@ -47,12 +47,13 @@ This repository provides a **comprehensive, structured learning path** designed 
 
 ### What You'll Learn:
 
-✅ **Manual Testing Fundamentals** - Core testing concepts, techniques, and methodologies  
-✅ **API Testing** - Manual testing with Postman and automation with REST Assured  
-✅ **Playwright Automation** - Modern web automation framework for UI and API testing  
-✅ **Framework Design** - Build scalable, maintainable test automation frameworks  
-✅ **Real-World Projects** - Apply skills to practical, industry-relevant scenarios  
-✅ **DevOps Integration** - CI/CD pipelines, version control, and deployment automation  
+✅ **Manual Testing Fundamentals** - Core testing concepts, techniques, and methodologies
+✅ **API Testing** - Manual testing with Postman and automation with REST Assured & Playwright
+✅ **Playwright Automation** - Modern web automation framework for UI and API testing
+✅ **Framework Design** - Build scalable, maintainable test automation frameworks
+✅ **AI-Assisted Testing** - Use AI tools to generate tests, triage defects, and test AI-driven features
+✅ **Real-World Projects** - Apply skills to practical, industry-relevant scenarios
+✅ **DevOps Integration** - CI/CD pipelines, version control, and deployment automation
 
 > [!IMPORTANT]
 > This is a **hands-on, project-based** learning path. Each module includes practical exercises, real-world examples, and projects you can add to your portfolio.
@@ -77,32 +78,31 @@ This roadmap is designed for:
 
 ```mermaid
 graph TB
-    Start([🎯 Start Here]) --> M0[0️⃣ Introduction<br/>& Setup]
-    M0 --> M1[1️⃣ Manual Testing<br/>Fundamentals]
-    
-    M1 --> M2[2️⃣ API Testing<br/>Manual & Automation]
-    
-    M2 --> M3[3️⃣ Playwright<br/>Basics]
-    
-    M3 --> M4[4️⃣ Playwright<br/>UI & API Automation]
-    
-    M4 --> M5[5️⃣ Framework<br/>Design]
-    
-    M5 --> M6[6️⃣ Real-Time<br/>Projects]
-    
-    M6 --> M7[7️⃣ Tools, Git<br/>& CI/CD]
-    
-    M7 --> End([🎓 SDET Ready])
-    
+    Start([🎯 Start Here]) --> M0[00 Introduction<br/>& Setup]
+    M0 --> M1[01 Manual Testing<br/>Fundamentals]
+    M1 --> M2[02 API<br/>Testing]
+    M2 --> M3[03 Playwright<br/>Basics]
+    M3 --> M4[04 Playwright API<br/>Automation]
+    M4 --> M5[05 Playwright UI<br/>Automation]
+    M5 --> M6[06 Framework<br/>Design]
+    M6 --> M7[07 Tools &<br/>Environment]
+    M7 --> M8[08 Git, GitHub<br/>& CI/CD]
+    M8 --> M9[09 AI-Assisted<br/>Testing]
+    M9 --> M10[10 Real-World<br/>Projects]
+    M10 --> End([🎓 SDET Ready])
+
     style Start fill:#e1f5ff
     style M0 fill:#fff3cd
     style M1 fill:#d4edda
     style M2 fill:#cfe2ff
     style M3 fill:#f8d7da
     style M4 fill:#ffeaa7
-    style M5 fill:#fab1a0
-    style M6 fill:#a29bfe
-    style M7 fill:#fd79a8
+    style M5 fill:#ffeaa7
+    style M6 fill:#fab1a0
+    style M7 fill:#a29bfe
+    style M8 fill:#fd79a8
+    style M9 fill:#74b9ff
+    style M10 fill:#55efc4
     style End fill:#00b894,color:#fff
 ```
 
@@ -112,9 +112,10 @@ Each module builds upon previous concepts, creating a **progressive learning exp
 
 1. **Foundation** → Manual Testing & Core Concepts
 2. **Expansion** → API Testing & Automation Basics
-3. **Specialization** → Playwright UI & API Automation
+3. **Specialization** → Playwright API + UI Automation
 4. **Mastery** → Framework Design & Architecture
-5. **Application** → Real-World Projects & DevOps
+5. **Modern Toolkit** → Environment, CI/CD & AI-Assisted Testing
+6. **Application** → Real-World Projects
 
 > [!TIP]
 > While modules are independent, following the numeric order ensures you have the necessary prerequisites for each advanced topic.
@@ -129,26 +130,26 @@ graph LR
         A1[Manual Testing<br/>Concepts] --> A2[Test Case<br/>Design]
         A2 --> A3[Bug<br/>Reporting]
     end
-    
+
     subgraph "Intermediate (Weeks 4-8)"
         B1[API Testing<br/>Manual] --> B2[Postman<br/>Automation]
-        B2 --> B3[REST Assured<br/>Framework]
+        B2 --> B3[REST Assured &<br/>Playwright API]
     end
-    
-    subgraph "Advanced (Weeks 9-14)"
-        C1[Playwright<br/>Basics] --> C2[UI Automation<br/>Patterns]
-        C2 --> C3[API + UI<br/>Integration]
+
+    subgraph "Advanced (Weeks 9-15)"
+        C1[Playwright<br/>Basics] --> C2[API + UI<br/>Automation]
+        C2 --> C3[Framework<br/>Design]
     end
-    
-    subgraph "Expert (Weeks 15-20)"
-        D1[Framework<br/>Architecture] --> D2[Real Projects<br/>Implementation]
-        D2 --> D3[CI/CD<br/>Integration]
+
+    subgraph "Expert (Weeks 16-22)"
+        D1[CI/CD &<br/>Tooling] --> D2[AI-Assisted<br/>Testing]
+        D2 --> D3[Real Projects<br/>Implementation]
     end
-    
+
     A3 --> B1
     B3 --> C1
     C3 --> D1
-    
+
     style A1 fill:#d4edda
     style B1 fill:#cfe2ff
     style C1 fill:#ffeaa7
@@ -159,8 +160,8 @@ graph LR
 
 ## 📚 Course Modules
 
-### Module 0️⃣: Introduction & Setup
-**Duration:** 1-2 days  
+### Module 00: Introduction & Setup
+**Duration:** 1-2 days
 **Level:** Beginner
 
 - Repository overview and structure
@@ -173,10 +174,12 @@ graph LR
 - ✅ All tools installed and verified
 - ✅ GitHub repository cloned
 
+📂 **You are here.**
+
 ---
 
-### Module 1️⃣: Manual Testing Fundamentals
-**Duration:** 2-3 weeks  
+### Module 01: Manual Testing Fundamentals
+**Duration:** 2-3 weeks
 **Level:** Beginner
 
 **Topics Covered:**
@@ -198,12 +201,12 @@ graph LR
 - ✅ Bug report samples
 - ✅ Exploratory testing notes
 
-📂 **[Go to Module 1: Manual Testing →](../1_manual_testing/)**
+📂 **[Go to Module 01: Manual Testing →](../01-manual-testing/)**
 
 ---
 
-### Module 2️⃣: API Testing (Manual & Automation)
-**Duration:** 3-4 weeks  
+### Module 02: API Testing (Manual & Automation)
+**Duration:** 3-4 weeks
 **Level:** Beginner to Intermediate
 
 **Topics Covered:**
@@ -225,12 +228,12 @@ graph LR
 - ✅ REST Assured automation scripts
 - ✅ API test framework
 
-📂 **[Go to Module 2: API Testing →](../02-api-testing/)**
+📂 **[Go to Module 02: API Testing →](../02-api-testing/)**
 
 ---
 
-### Module 3️⃣: Playwright Basics
-**Duration:** 2 weeks  
+### Module 03: Playwright Basics
+**Duration:** 2 weeks
 **Level:** Intermediate
 
 **Topics Covered:**
@@ -251,39 +254,58 @@ graph LR
 - ✅ Page Object classes
 - ✅ Utility functions library
 
-📂 **[Go to Module 3: Playwright Basics →](../3_playwright_basics/)**
+📂 **[Go to Module 03: Playwright Basics →](../03-playwright-basics/)**
 
 ---
 
-### Module 4️⃣: Playwright UI & API Automation
-**Duration:** 3-4 weeks  
+### Module 04: Playwright API Automation
+**Duration:** 2 weeks
+**Level:** Intermediate
+
+**Topics Covered:**
+- Playwright's `request` context for pure API testing
+- Combining API setup with UI test flows
+- Schema and contract validation
+- Data-driven API tests
+
+**Hands-On Practice:**
+- 🔌 API testing with Playwright's `request` fixture
+- 🔄 Using API calls to seed/clean up test data
+- 📊 Implementing data-driven API tests
+
+**Key Deliverables:**
+- ✅ API automation suite in Playwright
+- ✅ Hybrid UI + API test scenarios
+
+📂 **[Go to Module 04: Playwright API Automation →](../04-playwright-api-automation/)**
+
+---
+
+### Module 05: Playwright UI Automation
+**Duration:** 3 weeks
 **Level:** Intermediate to Advanced
 
 **Topics Covered:**
-- Advanced Playwright features
-- UI automation patterns
-- API automation with Playwright
-- Combining UI and API tests
-- Data-driven testing
-- Cross-browser testing
+- Advanced Playwright UI features
+- UI automation patterns (modals, tables, uploads, dynamic content)
+- Cross-browser and cross-device testing
+- Visual/snapshot testing basics
 
 **Hands-On Practice:**
 - 🖥️ Building comprehensive UI test suites
-- 🔌 API testing with Playwright
-- 🔄 Integrating UI and API tests
-- 📊 Implementing data-driven tests
+- 🔄 Handling flaky UI patterns the right way
+- 📊 Cross-browser test matrices
 
 **Key Deliverables:**
 - ✅ Complete UI automation suite
-- ✅ API automation with Playwright
-- ✅ Hybrid UI + API test scenarios
+- ✅ Cross-browser test configuration
 
-📂 **[Go to Module 4: Playwright UI & API →](../4_playwright_ui_and_api_automation/)**
+📂 **[Go to Module 05: Playwright UI Automation →](../05-playwright-ui-automation/)**
 
 ---
 
-### Module 5️⃣: Framework Design
-**Duration:** 3-4 weeks  
+### Module 06: Framework Design
+**Duration:** 3-4 weeks
 **Level:** Advanced
 
 **Topics Covered:**
@@ -305,60 +327,101 @@ graph LR
 - ✅ Framework documentation
 - ✅ Reusable component library
 
-📂 **[Go to Module 5: Framework Design →](../5_framework_design/)**
+📂 **[Go to Module 06: Framework Design →](../06-framework-design/)**
 
 ---
 
-### Module 6️⃣: Real-Time Projects
-**Duration:** 4-6 weeks  
-**Level:** Advanced
+### Module 07: Tools & Environment (Advanced)
+**Duration:** 1 week
+**Level:** Intermediate
 
 **Topics Covered:**
-- E-commerce application testing
-- Banking application automation
-- SaaS platform testing
-- Mobile-responsive testing
-- Performance testing basics
+- Docker for consistent, disposable test environments
+- Multi-browser / multi-OS execution matrices
+- Debugging tools (Playwright Trace Viewer, Inspector)
+- Environment and secrets management
 
 **Hands-On Practice:**
-- 🛒 E-commerce end-to-end automation
-- 🏦 Banking workflow automation
-- 📱 Responsive UI testing
-- ⚡ Basic performance testing
+- 🐳 Running tests inside Docker
+- 🔧 Building an environment-config strategy
+- 🕵️ Debugging a flaky test with the Trace Viewer
 
 **Key Deliverables:**
-- ✅ Complete project test suites
-- ✅ Test execution reports
-- ✅ Portfolio-ready projects
+- ✅ Dockerized test environment
+- ✅ Environment/config management setup
 
-📂 **[Go to Module 6: Real-Time Projects →](../6_real_time_projects/)**
+📂 **[Go to Module 07: Tools & Environment →](../07-tools-and-environment/)**
 
 ---
 
-### Module 7️⃣: Tools, Git & CI/CD
-**Duration:** 2-3 weeks  
+### Module 08: Git, GitHub & CI/CD
+**Duration:** 2-3 weeks
 **Level:** Intermediate to Advanced
 
 **Topics Covered:**
-- Version control with Git & GitHub
+- Version control with Git & GitHub for test code
 - CI/CD concepts and tools
 - GitHub Actions for test automation
 - Jenkins integration
-- Docker for test environments
 - Test execution in CI/CD pipelines
 
 **Hands-On Practice:**
 - 🔀 Git workflow management
 - 🤖 Setting up GitHub Actions
 - 🔄 Jenkins pipeline configuration
-- 🐳 Docker test containers
 
 **Key Deliverables:**
 - ✅ GitHub Actions workflows
 - ✅ Jenkins CI/CD pipeline
-- ✅ Dockerized test environment
 
-📂 **[Go to Module 7: Tools, Git & CI/CD →](../7_tools_git_cicd/)**
+📂 **[Go to Module 08: Git, GitHub & CI/CD →](../08-git-github-and-cicd/)**
+
+---
+
+### Module 09: AI-Assisted Testing
+**Duration:** 1-2 weeks
+**Level:** Intermediate to Advanced
+
+**Topics Covered:**
+- Generating test cases and Playwright code with AI
+- AI-assisted defect triage and root-cause hints
+- Testing AI-driven product features (chatbots, fraud/anomaly detection)
+- Where AI helps, and where it confidently lies to you
+
+**Hands-On Practice:**
+- 🤖 Prompting AI for test cases from a PRD/user story
+- 🧪 Generating and reviewing AI-written Playwright tests
+- 🔍 Testing an AI-driven feature (fraud detection, dispute triage)
+
+**Key Deliverables:**
+- ✅ AI-generated test case set (reviewed and corrected)
+- ✅ A documented AI-testing checklist
+
+📂 **[Go to Module 09: AI-Assisted Testing →](../09-ai-assisted-testing/)**
+
+---
+
+### Module 10: Real-World Projects (Capstone)
+**Duration:** 4-6 weeks
+**Level:** Advanced
+
+**Topics Covered:**
+- Fintech application testing (payments, collections, payouts)
+- Healthcare and travel domain testing
+- End-to-end project structure and reporting
+- Portfolio presentation
+
+**Hands-On Practice:**
+- 🏦 Fintech workflow automation
+- 🏥 Healthcare/travel domain projects
+- 📊 Full test execution reports
+
+**Key Deliverables:**
+- ✅ Complete project test suites
+- ✅ Test execution reports
+- ✅ Portfolio-ready projects
+
+📂 **[Go to Module 10: Real-World Projects →](../10-real-world-projects/)**
 
 ---
 
@@ -391,6 +454,10 @@ mindmap
         GitHub Actions
         Jenkins
       Docker
+    AI Tools
+      Test Generation
+      Defect Triage
+      AI Feature Testing
 ```
 
 ### 🔧 Required Tools:
@@ -405,6 +472,7 @@ mindmap
 | **CI/CD** | GitHub Actions, Jenkins | Continuous integration/deployment |
 | **Containerization** | Docker | Test environment isolation |
 | **Reporting** | Allure, Playwright Reporter | Test execution reporting |
+| **AI Tools** | ChatGPT / Claude | Test generation, defect triage assistance |
 | **IDE** | VS Code, WebStorm, IntelliJ | Code development |
 
 ### 📦 Installation Guide:
@@ -420,18 +488,18 @@ Detailed installation instructions for each tool are provided in the respective 
 
 ### Minimum Requirements:
 
-#### For Manual Testing (Modules 0-1):
+#### For Manual Testing (Modules 00-01):
 - ✅ **No prior experience required**
 - ✅ Basic computer skills
 - ✅ Willingness to learn
 
-#### For API Testing (Module 2):
-- ✅ Completed Module 1 (Manual Testing)
+#### For API Testing (Module 02):
+- ✅ Completed Module 01 (Manual Testing)
 - ✅ Basic understanding of HTTP
 - ✅ Familiarity with JSON format
 
-#### For Automation (Modules 3-7):
-- ✅ Completed Modules 1-2
+#### For Automation (Modules 03-10):
+- ✅ Completed Modules 01-02
 - ✅ **Basic JavaScript/TypeScript** (or willingness to learn)
 - ✅ Understanding of programming fundamentals (variables, functions, loops)
 - ✅ Familiarity with command line/terminal
@@ -444,7 +512,7 @@ Detailed installation instructions for each tool are provided in the respective 
 - 🔧 Experience with version control (Git)
 
 > [!TIP]
-> If you're new to programming, consider taking a JavaScript basics course before starting Module 3. We recommend [freeCodeCamp's JavaScript course](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/).
+> If you're new to programming, consider taking a JavaScript basics course before starting Module 03. We recommend [freeCodeCamp's JavaScript course](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/).
 
 ---
 
@@ -459,16 +527,18 @@ By completing this roadmap, you will be able to:
 - ✅ Describe API testing concepts and protocols
 - ✅ Understand test automation frameworks and design patterns
 - ✅ Explain CI/CD pipelines and DevOps practices
+- ✅ Understand where and how AI fits into a modern testing workflow
 
 ### 🛠️ Practical Skills:
 
 - ✅ Write comprehensive test cases and bug reports
 - ✅ Perform manual API testing using Postman
-- ✅ Automate API tests using REST Assured
+- ✅ Automate API tests using REST Assured and Playwright
 - ✅ Build UI automation tests with Playwright
 - ✅ Design and implement test automation frameworks
 - ✅ Integrate tests into CI/CD pipelines
 - ✅ Use Git for version control
+- ✅ Use AI tools to accelerate test creation and triage — without blindly trusting the output
 - ✅ Create professional test documentation
 
 ### 💼 Career Readiness:
@@ -485,16 +555,18 @@ By completing this roadmap, you will be able to:
 
 ### Step-by-Step Guide:
 
-#### 1. **Start with Module 0** (This folder)
+#### 1. **Start with Module 00** (This folder)
    - Read this README thoroughly
    - Set up your development environment
    - Install required tools
 
 #### 2. **Follow Modules in Numeric Order**
    ```
-   0_introduction → 1_manual_testing → 2_api_testing → 
-   3_playwright_basics → 4_playwright_ui_api → 
-   5_framework_design → 6_real_time_projects → 7_tools_git_cicd
+   00-introduction → 01-manual-testing → 02-api-testing →
+   03-playwright-basics → 04-playwright-api-automation →
+   05-playwright-ui-automation → 06-framework-design →
+   07-tools-and-environment → 08-git-github-and-cicd →
+   09-ai-assisted-testing → 10-real-world-projects
    ```
 
 #### 3. **For Each Module:**
@@ -527,16 +599,16 @@ By completing this roadmap, you will be able to:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/ghanendra-sdet/qa-to-sdet-roadmap.git
+git clone https://github.com/ghanendra-sdet/QA-to-SDET-Roadmap.git
 
 # 2. Navigate to the project
-cd qa-to-sdet-roadmap
+cd QA-to-SDET-Roadmap
 
 # 3. Explore the structure
 ls -la
 
-# 4. Start with Module 1
-cd 1_manual_testing
+# 4. Start with Module 01
+cd 01-manual-testing
 
 # 5. Read the README
 cat README.md
@@ -666,7 +738,7 @@ We welcome contributions to improve this learning resource!
 |---------------|--------------|----------------|
 | **Part-time** | 5-10 hours | 4-6 months |
 | **Accelerated** | 15-20 hours | 2-3 months |
-| **Full-time** | 30-40 hours | 1-1.5 months |
+| **Full-time** | 30-40 hours | 6-8 weeks |
 
 > [!NOTE]
 > These are estimates. Your actual timeline may vary based on prior experience and learning speed.
@@ -680,12 +752,12 @@ We welcome contributions to improve this learning resource!
 ```mermaid
 graph LR
     A[✅ Read This Page] --> B{Prerequisites<br/>Met?}
-    B -->|Yes| C[📚 Start Module 1:<br/>Manual Testing]
+    B -->|Yes| C[📚 Start Module 01:<br/>Manual Testing]
     B -->|No| D[📖 Learn<br/>Prerequisites]
     D --> C
-    
+
     C --> E[🚀 Continue<br/>Your Journey]
-    
+
     style A fill:#d4edda
     style C fill:#cfe2ff
     style E fill:#00b894,color:#fff
@@ -695,7 +767,7 @@ graph LR
 
 1. ⭐ **Star this repository** to bookmark it
 2. 🍴 **Fork** to create your own copy
-3. 📖 **Read** [Module 1: Manual Testing](../1_manual_testing/)
+3. 📖 **Read** [Module 01: Manual Testing](../01-manual-testing/)
 4. 💻 **Set up** your development environment
 5. ✍️ **Start** with your first exercise
 
@@ -705,6 +777,7 @@ graph LR
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 3.0 | 2026-07-27 | Restructured to 11 modules (00-10): split Playwright automation into API (04) and UI (05), split Tools/CI-CD into Environment (07) and Git/CI-CD (08), added new AI-Assisted Testing module (09), moved Real-World Projects to capstone position (10). Fixed all cross-module links to match renamed folders. |
 | 2.0 | 2026-02-10 | Major enhancement: Added badges, comprehensive TOC, 3 Mermaid diagrams (roadmap, skill progression, tech stack), detailed module breakdowns with time estimates, prerequisites, learning objectives, getting started guide, best practices, contribution guidelines |
 | 1.0 | 2025-11-01 | Initial roadmap structure |
 
@@ -718,7 +791,7 @@ graph LR
 
 ---
 
-### 📚 **[Begin with Module 1: Manual Testing →](../1_manual_testing/)**
+### 📚 **[Begin with Module 01: Manual Testing →](../01-manual-testing/)**
 
 ---
 
@@ -726,7 +799,7 @@ Made with ❤️ for aspiring QA Engineers and SDETs
 
 **Happy Learning! 🚀**
 
-*Last Updated: February 2026*
+*Last Updated: July 2026*
 
 **[⬆ Back to Top](#-qa-to-sdet-learning-roadmap)**
 

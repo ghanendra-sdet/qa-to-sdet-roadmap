@@ -4,7 +4,7 @@
 
 ![Learning Path](https://img.shields.io/badge/learning%20path-structured-blue.svg)
 ![Skill Level](https://img.shields.io/badge/skill%20level-beginner%20to%20advanced-green.svg)
-![Modules](https://img.shields.io/badge/modules-8-orange.svg)
+![Modules](https://img.shields.io/badge/modules-11-orange.svg)
 ![Career Ready](https://img.shields.io/badge/career-SDET%20ready-success.svg)
 
 **Master the complete skillset required to become a Software Development Engineer in Test (SDET)**
@@ -22,6 +22,7 @@
   - [API Testing](#-api-testing)
   - [Playwright Automation](#-playwright-automation)
   - [Framework Design](#-framework-design)
+  - [AI-Assisted Testing](#-ai-assisted-testing)
   - [Career Readiness](#-career-readiness)
 - [Proficiency Levels](#-proficiency-levels)
 - [Timeline & Milestones](#-timeline--milestones)
@@ -58,9 +59,9 @@ graph TB
         C2 --> C3[API + UI<br/>Integration]
     end
     
-    subgraph Expert["🏆 Expert (Weeks 15-20)"]
-        D1[Framework<br/>Architecture] --> D2[Design<br/>Patterns]
-        D2 --> D3[CI/CD &<br/>DevOps]
+    subgraph Expert["🏆 Expert (Weeks 15-22)"]
+        D1[Framework<br/>Architecture] --> D2[CI/CD &<br/>DevOps]
+        D2 --> D3[AI-Assisted<br/>Testing]
     end
     
     A3 --> B1
@@ -225,7 +226,7 @@ graph TB
   - Implement screenshot and video recording
   - Handle flaky tests
 
-**📂 Covered in:** [Module 03: Playwright Basics](../03-playwright-basics/) | [Module 04: Playwright Automation](../04-playwright-automation/)
+**📂 Covered in:** [Module 03: Playwright Basics](../03-playwright-basics/) | [Module 04: Playwright API Automation](../04-playwright-api-automation/) | [Module 05: Playwright UI Automation](../05-playwright-ui-automation/)
 
 ---
 
@@ -266,7 +267,37 @@ graph TB
   - Implement parallel test execution
   - Manage test data effectively
 
-**📂 Covered in:** [Module 05: Framework Design](../05-framework-design/)
+**📂 Covered in:** [Module 06: Framework Design](../06-framework-design/)
+
+---
+
+### 🤖 AI-Assisted Testing
+
+**Target Proficiency:** Advanced
+
+#### Knowledge Objectives:
+- ✅ **Understand Where AI Fits in Testing**
+  - Know the difference between AI *helping* you test and AI *replacing* your judgment
+  - Understand the failure modes of AI-generated tests (confident, wrong, or both)
+  - Learn what AI is genuinely good at (boilerplate, first drafts, brainstorming edge cases) vs. bad at (business context, real assertions)
+
+#### Practical Skills:
+- ✅ **Generate Test Cases with AI**
+  - Turn a PRD/user story into a first-draft test case set using AI
+  - Prompt for edge cases and negative scenarios, not just the happy path
+  - Review and correct AI output instead of committing it blindly
+
+- ✅ **Use AI for Playwright Code**
+  - Generate a first-draft Playwright test/locator with AI, then fix what it got wrong
+  - Use AI to explain an unfamiliar error/stack trace and suggest a root cause
+  - Use AI to help triage a batch of defects (dedupe, spot patterns, cluster by root cause)
+
+- ✅ **Test AI-Driven Features**
+  - Know how to test a feature that itself uses AI/ML (fraud detection, dispute-resolution triage, chatbots)
+  - Understand non-determinism: how do you write a repeatable test for a system that isn't 100% repeatable?
+  - Design test cases around confidence thresholds, fallback behavior, and human-review escalation paths
+
+**📂 Covered in:** [Module 09: AI-Assisted Testing](../09-ai-assisted-testing/)
 
 ---
 
@@ -308,7 +339,7 @@ graph TB
   - Maintain clean Git history
   - Present projects professionally
 
-**📂 Covered in:** [Module 08: Real-World Projects](../08-real-world-projects/) | [Module 09: Git, GitHub & CI/CD](../9_git_github_and_ci_cd/)
+**📂 Covered in:** [Module 10: Real-World Projects](../10-real-world-projects/) | [Module 08: Git, GitHub & CI/CD](../08-git-github-and-cicd/)
 
 ---
 
@@ -321,11 +352,12 @@ Track your expected proficiency for each skill area:
 | **Manual Testing** | 🌱 Beginner | ⭐⭐⭐ Advanced | 01 |
 | **API Testing (Manual)** | 🌱 Beginner | ⭐⭐⭐ Advanced | 02 |
 | **API Testing (Automation)** | 🌱 Beginner | ⭐⭐⭐⭐ Expert | 02, 04 |
-| **Playwright UI Automation** | 🌱 Beginner | ⭐⭐⭐⭐ Expert | 03, 04 |
-| **Framework Design** | 🌱 Beginner | ⭐⭐⭐⭐ Expert | 05 |
+| **Playwright UI Automation** | 🌱 Beginner | ⭐⭐⭐⭐ Expert | 03, 05 |
+| **Framework Design** | 🌱 Beginner | ⭐⭐⭐⭐ Expert | 06 |
 | **JavaScript/TypeScript** | 🌱 Beginner | ⭐⭐⭐ Advanced | All |
-| **Git & Version Control** | 🌱 Beginner | ⭐⭐⭐ Advanced | 09 |
-| **CI/CD** | 🌱 Beginner | ⭐⭐ Intermediate | 09 |
+| **Git & Version Control** | 🌱 Beginner | ⭐⭐⭐ Advanced | 08 |
+| **CI/CD** | 🌱 Beginner | ⭐⭐ Intermediate | 08 |
+| **AI-Assisted Testing** | 🌱 Beginner | ⭐⭐⭐ Advanced | 09 |
 
 **Legend:**
 - 🌱 Beginner: Basic understanding
@@ -344,15 +376,17 @@ gantt
     section Foundation
     Manual Testing Mastery           :done, m1, 2026-02-01, 21d
     section Intermediate
-    API Testing (Postman)            :active, m2a, 2026-02-22, 14d
-    API Automation (REST/Playwright) :m2b, after m2a, 14d
+    API Testing (Postman/REST/PW)    :active, m2, 2026-02-22, 21d
     section Advanced
-    Playwright Basics                :m3, after m2b, 14d
-    Playwright UI & API Automation   :m4, after m3, 21d
+    Playwright Basics                :m3, after m2, 14d
+    Playwright API Automation        :m4, after m3, 14d
+    Playwright UI Automation         :m5, after m4, 21d
     section Expert
-    Framework Design                 :m5, after m4, 21d
-    Real-World Projects              :m6, after m5, 28d
-    Git, GitHub & CI/CD              :m7, after m5, 14d
+    Framework Design                 :m6, after m5, 21d
+    Tools & Environment              :m7, after m6, 7d
+    Git, GitHub & CI/CD              :m8, after m7, 14d
+    AI-Assisted Testing              :m9, after m8, 10d
+    Real-World Projects              :m10, after m9, 28d
 ```
 
 ### Key Milestones:
@@ -360,9 +394,11 @@ gantt
 | Week | Milestone | Skills Acquired |
 |------|-----------|-----------------|
 | **Week 3** | 🏆 Manual Testing Complete | Test case design, bug reporting, black box techniques |
-| **Week 8** | 🏆 API Testing Complete | Postman, REST Assured, Playwright API automation |
-| **Week 14** | 🏆 Playwright Mastery | UI automation, API automation, POM, advanced patterns |
-| **Week 18** | 🏆 Framework Design Complete | Scalable frameworks, design patterns, best practices |
+| **Week 6** | 🏆 API Testing Complete | Postman, REST Assured, Playwright API automation |
+| **Week 12** | 🏆 Playwright Mastery | API + UI automation, POM, advanced patterns |
+| **Week 15** | 🏆 Framework Design Complete | Scalable frameworks, design patterns, best practices |
+| **Week 18** | 🏆 DevOps Ready | Docker, GitHub Actions, Jenkins pipelines |
+| **Week 20** | 🏆 AI-Assisted Testing Complete | AI test generation, AI-driven feature testing |
 | **Week 24** | 🎓 **SDET Ready** | Portfolio projects, CI/CD, professional GitHub profile |
 
 ---
@@ -433,6 +469,6 @@ By the end of this roadmap, your portfolio will include:
 
 **[⬆ Back to Top](#-learning-objectives)**
 
-*Last Updated: February 2026*
+*Last Updated: July 2026*
 
 </div>
