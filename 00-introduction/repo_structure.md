@@ -39,7 +39,7 @@ This repository follows a **numbered, sequential structure** designed to guide y
 
 ```mermaid
 graph TB
-    Root[📦 QA-to-SDET-Roadmap]
+    Root[📦 SDET-Roadmap]
 
     Root --> M00[00-introduction<br/>🏠 Start Here]
     Root --> M01[01-manual-testing<br/>🧪 Foundation]
@@ -89,7 +89,7 @@ graph TB
 ### Complete Folder Tree:
 
 ```text
-QA-to-SDET-Roadmap/
+SDET-Roadmap/
 │
 ├── 00-introduction/                     📍 START HERE
 │   ├── README.md                        → Complete roadmap overview

@@ -599,10 +599,10 @@ By completing this roadmap, you will be able to:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/ghanendra-sdet/QA-to-SDET-Roadmap.git
+git clone https://github.com/ghanendra-sdet/SDET-Roadmap.git
 
 # 2. Navigate to the project
-cd QA-to-SDET-Roadmap
+cd SDET-Roadmap
 
 # 3. Explore the structure
 ls -la
