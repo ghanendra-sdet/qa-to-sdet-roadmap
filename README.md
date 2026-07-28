@@ -11,6 +11,8 @@
 
 **A structured, hands-on path from Manual Testing → API Testing → Playwright Automation → Framework Design → AI-Assisted Testing → real portfolio projects.**
 
+### 🌐 [Read it live →](https://ghanendra-sdet.github.io/sdet-roadmap/)
+
 </div>
 
 ---
