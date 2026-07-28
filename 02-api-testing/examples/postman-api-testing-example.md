@@ -309,7 +309,7 @@ newman run collection.json \
 
 ---
 
-<div align="center">
+<div align="center" markdown="1">
 
 **⭐ Continue with REST-assured examples next! ⭐**
 

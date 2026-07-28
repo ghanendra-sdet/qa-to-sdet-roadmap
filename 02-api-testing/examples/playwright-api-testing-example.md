@@ -535,7 +535,7 @@ npx playwright test --debug
 
 ---
 
-<div align="center">
+<div align="center" markdown="1">
 
 **⭐ Great job! You've completed all three API testing examples! ⭐**
 

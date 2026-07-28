@@ -189,7 +189,7 @@ Have a resource to add? We welcome contributions!
 
 ---
 
-<div align="center">
+<div align="center" markdown="1">
 
 **[⬆ Back to Main README](../README.md)**
 

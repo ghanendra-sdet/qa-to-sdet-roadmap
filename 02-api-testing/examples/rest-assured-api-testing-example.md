@@ -605,7 +605,7 @@ mvn surefire-report:report
 
 ---
 
-<div align="center">
+<div align="center" markdown="1">
 
 **⭐ Next: Check out Playwright API testing! ⭐**
 

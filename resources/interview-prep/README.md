@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown="1">
 
 # 💼 QA to SDET Interview Prep
 
@@ -180,7 +180,7 @@ seriously at that company, which matters as much as the salary number.
 
 ---
 
-<div align="center">
+<div align="center" markdown="1">
 
 **[← Back to Resources](../README.md)**
 

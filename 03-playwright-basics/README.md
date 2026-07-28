@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown="1">
 
 # 🎭 Playwright Basics
 
@@ -454,7 +454,7 @@ Playwright's `request` fixture — no browser required.
 
 ---
 
-<div align="center">
+<div align="center" markdown="1">
 
 **[⬆ Back to Top](#-playwright-basics)** | **[🏠 Main README](../README.md)**
 

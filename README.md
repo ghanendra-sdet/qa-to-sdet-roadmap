@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown="1">
 
 # 🎓 QA to SDET — The Complete Roadmap
 
@@ -219,7 +219,7 @@ as your own original 3 AM fever dream.
 
 ---
 
-<div align="center">
+<div align="center" markdown="1">
 
 ### 📚 [Start with Module 00 →](./00-introduction/)
 

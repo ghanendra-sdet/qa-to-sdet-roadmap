@@ -973,7 +973,7 @@ Help improve these exercises!
 
 ---
 
-<div align="center">
+<div align="center" markdown="1">
 
 **⭐ Practice makes perfect! Start your QA journey today. ⭐**
 

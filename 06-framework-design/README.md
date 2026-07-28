@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown="1">
 
 # 🏗️ Framework Design with Playwright
 
@@ -429,7 +429,7 @@ that turn "the CI failed and I don't know why" into a 30-second diagnosis.
 
 ---
 
-<div align="center">
+<div align="center" markdown="1">
 
 **[⬆ Back to Top](#-framework-design-with-playwright)** | **[🏠 Main README](../README.md)**
 

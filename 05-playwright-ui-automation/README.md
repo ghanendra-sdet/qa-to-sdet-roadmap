@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown="1">
 
 # 🖥️ Playwright UI Automation
 
@@ -430,7 +430,7 @@ pattern this entire roadmap has been building toward.
 
 ---
 
-<div align="center">
+<div align="center" markdown="1">
 
 **[⬆ Back to Top](#-playwright-ui-automation)** | **[🏠 Main README](../README.md)**
 

@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown="1">
 
 # 📚 Manual Testing – Learning Resources
 
@@ -234,7 +234,7 @@ graph TD
 
 ## 🚀 Next Step
 
-<div align="center">
+<div align="center" markdown="1">
 
 ### ▶️ Ready to move forward?
 
@@ -247,7 +247,7 @@ to begin learning **API testing concepts and practices**.
 
 ---
 
-<div align="center">
+<div align="center" markdown="1">
 
 **[⬆ Back to Top](#-manual-testing--learning-resources)** | **[🏠 Main README](../../README.md)**
 

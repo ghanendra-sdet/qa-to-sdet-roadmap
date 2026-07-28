@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown="1">
 
 # 🛠️ Tools & Environment (Advanced)
 
@@ -304,7 +304,7 @@ you.
 
 ---
 
-<div align="center">
+<div align="center" markdown="1">
 
 **[⬆ Back to Top](#-tools--environment-advanced)** | **[🏠 Main README](../README.md)**
 

@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown="1">
 
 # 📚 Git, GitHub & CI/CD
 
@@ -325,7 +325,7 @@ tests faster and triage defects smarter.
 
 ---
 
-<div align="center">
+<div align="center" markdown="1">
 
 **[⬆ Back to Top](#-git-github--cicd)** | **[🏠 Main README](../README.md)**
 

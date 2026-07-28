@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown="1">
 
 # 📁 Repository Structure
 
@@ -39,7 +39,7 @@ This repository follows a **numbered, sequential structure** designed to guide y
 
 ```mermaid
 graph TB
-    Root[📦 SDET-Roadmap]
+    Root[📦 sdet-roadmap]
 
     Root --> M00[00-introduction<br/>🏠 Start Here]
     Root --> M01[01-manual-testing<br/>🧪 Foundation]
@@ -89,7 +89,7 @@ graph TB
 ### Complete Folder Tree:
 
 ```text
-SDET-Roadmap/
+sdet-roadmap/
 │
 ├── 00-introduction/                     📍 START HERE
 │   ├── README.md                        → Complete roadmap overview
@@ -502,7 +502,7 @@ flowchart TD
 
 ---
 
-<div align="center">
+<div align="center" markdown="1">
 
 ## 🚀 Ready to Navigate?
 

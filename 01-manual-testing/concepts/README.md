@@ -1099,7 +1099,7 @@ Help improve this learning resource!
 
 ---
 
-<div align="center">
+<div align="center" markdown="1">
 
 **⭐ Strong fundamentals lead to successful automation! ⭐**
 

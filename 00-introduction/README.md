@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown="1">
 
 # 🚀 QA to SDET Learning Roadmap
 
@@ -599,10 +599,10 @@ By completing this roadmap, you will be able to:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/ghanendra-sdet/SDET-Roadmap.git
+git clone https://github.com/ghanendra-sdet/sdet-roadmap.git
 
 # 2. Navigate to the project
-cd SDET-Roadmap
+cd sdet-roadmap
 
 # 3. Explore the structure
 ls -la
@@ -783,7 +783,7 @@ graph LR
 
 ---
 
-<div align="center">
+<div align="center" markdown="1">
 
 ## 🌟 Ready to Start Your SDET Journey?
 

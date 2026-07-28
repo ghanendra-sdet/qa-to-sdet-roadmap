@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown="1">
 
 # 🎯 Learning Objectives
 
@@ -457,7 +457,7 @@ By the end of this roadmap, your portfolio will include:
 
 ---
 
-<div align="center">
+<div align="center" markdown="1">
 
 ## 🎯 Ready to Start?
 

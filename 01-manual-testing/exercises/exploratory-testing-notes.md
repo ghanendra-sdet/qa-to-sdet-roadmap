@@ -796,7 +796,7 @@ Permission is granted to use, modify, and distribute.
 
 ---
 
-<div align="center">
+<div align="center" markdown="1">
 
 **⭐ If you found this guide helpful, please star this repository! ⭐**
 

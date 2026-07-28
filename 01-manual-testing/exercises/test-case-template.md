@@ -639,7 +639,7 @@ publish, distribute, sublicense, and/or sell copies of this template.
 
 ---
 
-<div align="center">
+<div align="center" markdown="1">
 
 **⭐ If you found this template helpful, please star this repository! ⭐**
 

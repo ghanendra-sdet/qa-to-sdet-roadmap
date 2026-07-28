@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown="1">
 
 # 🔌 API Testing — Manual & Automation
 
@@ -203,7 +203,7 @@ write your first UI automation test.
 
 ---
 
-<div align="center">
+<div align="center" markdown="1">
 
 **[⬆ Back to Top](#-api-testing--manual--automation)** | **[🏠 Main README](../README.md)**
 

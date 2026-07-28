@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown="1">
 
 # 🤖 AI-Assisted Testing
 
@@ -326,7 +326,7 @@ together into real, portfolio-ready projects.
 
 ---
 
-<div align="center">
+<div align="center" markdown="1">
 
 **[⬆ Back to Top](#-ai-assisted-testing)** | **[🏠 Main README](../README.md)**
 

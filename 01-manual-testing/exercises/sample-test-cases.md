@@ -595,7 +595,7 @@ Permission is granted to use, modify, and distribute this content.
 
 ---
 
-<div align="center">
+<div align="center" markdown="1">
 
 **⭐ If you found these test cases helpful, please star this repository! ⭐**
 

@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown="1">
 
 # 🚀 Real-World Projects (Capstone)
 
@@ -276,7 +276,7 @@ AI-Assisted Testing → a real, portfolio-worthy capstone project.
 
 ---
 
-<div align="center">
+<div align="center" markdown="1">
 
 **[⬆ Back to Top](#-real-world-projects-capstone)** | **[🏠 Main README](../README.md)**
 

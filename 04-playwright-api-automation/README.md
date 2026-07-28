@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown="1">
 
 # ⚡ Playwright API Automation
 
@@ -332,7 +332,7 @@ Next: go deep on the UI side — the patterns real apps throw at you that a toy 
 
 ---
 
-<div align="center">
+<div align="center" markdown="1">
 
 **[⬆ Back to Top](#-playwright-api-automation)** | **[🏠 Main README](../README.md)**
 
