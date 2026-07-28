@@ -22,6 +22,7 @@ Quick reference guides for common testing tasks and tools.
 - [Playwright Cheatsheet](./cheatsheets/playwright-quick-reference.md) - Playwright API reference
 - [API Testing Cheatsheet](./cheatsheets/api-testing-reference.md) - HTTP methods, status codes, Postman
 - [Test Design Techniques](./cheatsheets/test-design-techniques.md) - EP, BVA, Decision Tables
+- [🧠 Command Recall Drill](./cheatsheets/command-recall-drill.md) - Fold-to-reveal quizzing so the commands actually stick, not just a lookup table
 
 📂 **[Browse all cheatsheets →](./cheatsheets/)**
 
